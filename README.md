@@ -1,3 +1,35 @@
+
+Exercise PHP & jQuery
+In this exercise you need to create a form with 4 input fields:
+ Company Symbol
+ Start Date (YYYY-mm-dd)
+ End Date (YYYY-mm-dd)
+ Email
+When the user submits the form you must do the following:
+1) Validate the form both on client and server side and place appropriate messages
+on both cases. All fields must be mandatory. Include also validation for:
+- format and logic for dates
+- existence for company symbol
+- format for email
+2) Display on screen the historical quotes for the submitted company in the given
+date range in table format (Date, Open, High, Low, Close, Volume and AdjClose
+values).
+Company symbols can be found here:
+http://www.nasdaq.com/screening/companies-by-name.aspx (For download in excel
+format: http://www.nasdaq.com/screening/companies-by-name.aspx?
+&render=download)
+Data should be retrieved by using the CSV API:
+http://ichart.finance.yahoo.com/table.csv
+by passing submitted company’s symbol as get parameter with key s i.e.
+http://ichart.finance.yahoo.com/table.csv?s=GOOG
+3) Display a chart of the open and close prices in the given date range.
+4) Send an email using the submitted company’s name as subject (i.e. Google) and
+the start date and end date as body (i.e. "From 2016-01-01 to 2016-02-01").
+
+
+The above exercise is solved with Laravel PHP Framework.
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
