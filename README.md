@@ -13,8 +13,8 @@ on both cases. All fields must be mandatory. Include also validation for:
 - existence for company symbol
 - format for email
 
-#### Display on screen the historical quotes for the submitted company in the given
-date range in table format (Date, Open, High, Low, Close, Volume and AdjClose
+#### Display on screen the historical quotes for the submitted company 
+(in the given date range in table format (Date, Open, High, Low, Close, Volume and AdjClose)
 values).
 - Company symbols can be found here:
 http://www.nasdaq.com/screening/companies-by-name.aspx (For download in excel
