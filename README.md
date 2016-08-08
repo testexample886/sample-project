@@ -1,10 +1,10 @@
+# Exercise PHP & jQuery:
 
-Exercise PHP & jQuery
 In this exercise you need to create a form with 4 input fields:
- Company Symbol
- Start Date (YYYY-mm-dd)
- End Date (YYYY-mm-dd)
- Email
+1) Company Symbol
+2) Start Date (YYYY-mm-dd)
+3) End Date (YYYY-mm-dd)
+4) Email
 When the user submits the form you must do the following:
 1) Validate the form both on client and server side and place appropriate messages
 on both cases. All fields must be mandatory. Include also validation for:
